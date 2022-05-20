@@ -1,1 +1,60 @@
-a
+body {
+    background-color: rgb(46, 48, 181);
+}
+
+#entrada {
+    background-color: whitesmoke;
+    width: 14%;
+    height: 21%;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    text-align: center;
+}
+
+#saida {
+    background-color: whitesmoke;
+    width: 14%;
+    height: 21%;
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    text-align: center;
+}
+
+#resp {
+    background-color: whitesmoke;
+    width: 14%;
+    height: 10%;
+    position: absolute;
+    left: 42%;
+    top: 70%;
+    text-align: center;
+}
+
+#final {
+    background-color: whitesmoke;
+    width: 14%;
+    height: 21%;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    text-align: center;
+
+}
+
+#nat {
+    z-index: 1;
+
+}
+
+#tit {
+    z-index: 2;
+    background-color: whitesmoke;
+    width: 20%;
+    height: 13%;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    text-align: center;
+}
