@@ -1,0 +1,31 @@
+<html lang="PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Selecione o dado</h1>
+        <input type="radio" name="dice" checked> d20 <br>
+        <input type="radio" name="dice"> d12 <br>
+        <input type="radio" name="dice"> d10 <br>
+        <input type="radio" name="dice"> d8 <br>
+        <input type="radio" name="dice"> d6 <br>
+        <input type="radio" name="dice"> d4 <br>
+
+        <button onclick="roll()">ROLL!</button>
+    </div>
+
+    <div>
+
+        <h2>Resultado</h2>
+        <p id="final"><span id="res">???</span></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
