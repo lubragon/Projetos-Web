@@ -1,1 +1,37 @@
-a
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ConversorMoedas</title>
+</head>
+<body>
+    <img src="nath.jpg" alt="nath" id="nat">
+    <h1 id="tit"> Conversor de Moedas</h1>
+    <div id="entrada">
+        <p>Escolha a moeda de entrada</p>
+        <input type="radio" name="in" value="BRL" checked> Real <br>
+        <input type="radio" name="in" value="USD"> Dólar <br>
+        <input type="radio" name="in" value="EUR"> Euro <br>
+        <input type="radio" name="in" value="GPB"> Libra <br>
+    </div>
+
+    <div id="saida">
+        <p>Escolha a moeda de saída</p>
+        <input type="radio" name="out" value="BRL"> Real <br>
+        <input type="radio" name="out" value="USD" checked > Dólar <br>
+        <input type="radio" name="out" value="EUR"> Euro <br>
+        <input type="radio" name="out" value="GPB"> Libra <br>
+    </div>
+
+    <div id="resp">
+        Valor: <input id="quantia" type="number" value="10.00">
+        <button onclick="converter()">CONVERTER</button>
+    </div>
+    <p id="final"> <br> O valor convertido é <span id="res">???</span></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
