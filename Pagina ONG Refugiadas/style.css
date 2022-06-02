@@ -98,16 +98,210 @@ footer {
     left: 1em;
 }
 
-#submit {
-    height:3em ;
+#but {
+    height:3em;
     width: 7em;
+    
+    
 }
 
-#grey {
-    background-color: rgb(0, 0, 0);
+.wall {
+    background: rgba(39, 37, 37, 0.596);
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 5;
+    opacity: 100%;
+}
+
+h1 {
+    /* Casa Nº 4 - Suíte e varanda */
+
+
+position: absolute;
+left: 24.4%;
+right: 24.47%;
+top: 10.58%;
+bottom: 86.89%;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 130%;
+/* or 73px */
+
+display: flex;
+align-items: center;
+
+/* Dark / Dark 1 */
+
+color: #3A3A3C;
+}
+
+#casa {
+
+        /* Anfitriã: Vera Damasceno */
+    
+    position: absolute;
+    left: 14em;
+    top: 1em;
+    
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    /* or 42px */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Dark / Dark 1 */
+    
+    color: #3A3A3C;
+    
+    
+}
+#anf {
+    /* Anfitriã: Vera Damasceno */
+
+position: absolute;
+left: 14em;
+top: 2.5em;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+/* or 42px */
+
+display: flex;
+align-items: center;
+
+/* Dark / Dark 1 */
+
+color: #3A3A3C;
+}
+
+
+#termo {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 104px;
+
+    position: absolute;
+    left: 26.88%;
+    right: 28.94%;
+    top: 30.07%;
+    bottom: 13.66%;
+
+    background: #AC80A0;
+    border-bottom: 2px solid #2D3648;
+    opacity: 100%;
+    z-index: 5;
+}
+
+#ter {
+
+position: absolute;
+left: 25%;
+bottom: 85%;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 130%;
+
+display: flex;
+align-items: center;
+z-index: 3;
+color: #3A3A3C;
+z-index: 4;
+}
+
+#x {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+p {
+
+    position: absolute;
+    left: 18em;
+    top: 4.5em;
+    
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 130%;
+
+display: flex;
+align-items: center;
+
+
+color: #3A3A3C;
+}
+
+.seletor {
+
+    height: 6%;
+    width: 2%;
+    border-radius: 100%;
+    border-bottom: 2px solid #2D3648;
+}
+
+#but1 {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    background-color: #005BBC;
+    cursor: pointer;
+}
+#but2{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    cursor: pointer;
+}
+#but3 {
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    cursor: pointer;
+}
+
+.foto {
+    position: absolute;
+    left:2%;
     z-index: 2;
-    opacity: 60%;
+}
+
+#quadrado {
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    background-color: white;
+    z-index: 1;
+    left: 7%;
+    transform: rotate(30deg);
+}
+
+
+#linha {
+    position: absolute;
+    top: 37%;
+    left: 35.8%;
+    width:0.41% ;   
+    height: 32%;
+    background-color: #0D1317;
 }
